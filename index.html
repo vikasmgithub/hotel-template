@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hotel</title>
+    <link rel="stylesheet" href="font-a/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+
+
+
+<header>
+<nav id="header" class="navbar navbar-default">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="images/-logo1.gif">
+      </a>
+      <div class="pull-right">
+  <button id="searchbtn" type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+ </button>
+ </div>
+</nav>
+</header>
+
+
+
+<div id="jumbotron" class="visible-sm visible-md visible-lg">
+
+<img class="img" src="images/london2.jpg">
+
+<div id="menu">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#flight" aria-controls="flight" role="tab" data-toggle="tab">Flight</a></li>
+    <li role="presentation"><a href="#Hotel" aria-controls="Hotel" role="tab" data-toggle="tab">Hotel</a></li>
+    <li role="presentation"><a href="#rental" aria-controls="rental" role="tab" data-toggle="tab">Rental</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="flight">
+    <h3>Travel the World with us.</h3>
+    <div>
+    <div class="col-xs-6"><p>From</p><input type="text" class="form-control" placeholder="Departing from" aria-describedby="basic-addon1"></div>
+    <div class="col-xs-6"><p>To</p><input type="text" class="form-control" placeholder="Arriving at" aria-describedby="basic-addon1"></div>
+    <button type="button" class="btn btn-default" >Search and final Date</button>
+    </div>  
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="Hotel">
+      <h3>Find the Best Hotels</h3>
+      <p>Book a hotel with us and get the best fares and promotions.</p>
+      <p>We know hotels - we know comfort.</p>
+      <button type="button" class="btn btn-default" >Search Hotels</button>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="rental">
+    <h3>Best car rental in the world!</h3>
+    <p>Best car rental in the world!</p>
+    <div class="col-xs-12">
+    <input type="text" class="form-control" placeholder="Pickup Point!" aria-describedby="basic-addon1">
+    </div>
+    <button type="button" class="btn btn-default" >Search Availibility</button>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+<div id="maincontent">
+<div id="section0" class="container">
+ <h3>Good Offers Right Now</h3>
+<h6>Up to <b>50%</b> discount.</h6>
+</div>
+<div id="section1" class="container">
+<div class="row">
+<div class="half" ><img id="extrapadding" src="images/cine.jpg"></div>
+<div class="half">
+  <div>
+  <div class="half margin-bottom"><img src="images/newyork2.jpg"></div>
+   <div class="half margin-bottom"><img src="images/sanfran.jpg"></div>
+</div>
+<div>
+   <div class="half"><img src="images/paris.jpg"></div>
+    <div class="half"><img src="images/pisa.jpg"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div id="section0" class="container">
+ <h3>Explore Nature</h3>
+<h6>Travel with us and see nature at its finest.</h6>
+</div>
+<div id="thumbnails">
+<div class="container">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="images/mountains2.jpg" alt="...">
+      <div class="caption">
+        <h3>Mountains Australia</h3>
+        <h6>Roundtrip from $79</h6>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <p><a id="thumbnailsbtn" href="#" class="btn btn-primary" role="button">Buy Tickets</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="images/ocean2.jpg" alt="...">
+      <div class="caption">
+        <h3>West coast Norway</h3>
+        <h6>One-way from $39</h6>
+        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <p><a id="thumbnailsbtn" href="#" class="btn btn-primary" role="button">Buy Tickests</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div id="section3" class="container">
+<h2>Get the best offers first!</h2>
+<h6>Get the best offers first!</h6>
+<div><p>E-mail</p><input type="text" class="form-control" placeholder="Your E-mail" aria-describedby="basic-addon1"></div>
+<div id="subscribebtn"><a  href="#" class="btn btn-primary" role="button">Subscribe!</a></div>
+</div>
+
+<div id="section0" class="container">
+ <h3>Contact</h3>
+<h6>Let us book your next trip!</h6>
+</div>
+
+
+<div class="container">
+<ul id="contactlist">
+<li><span class="glyphicon glyphicon-envelope"></span><p> Chicago, US</p></li>
+<li><span class="glyphicon glyphicon-earphone"></span><p>Phone: +00 151515</p></li>
+<li><span class="glyphicon glyphicon-map-marker"></span><p>Email: mail@mail.com</p></li>
+</ul>
+
+<div id="form">
+ <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+  <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+   <input type="text" class="form-control" placeholder="Message" aria-describedby="basic-addon1">
+   <div id="contactbtn"><a  href="#" class="btn btn-primary" role="button">Send Message</a></div>
+</div>
+</div>
+
+<footer class="container">
+<div id="footer">
+<h5>Find us on</h5>
+<ul>
+<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+<li><a href=""><i class="fa fa-instagram fa-lg"></i></a></li>
+<li><a href=""><i class="fa fa-git fa-lg"></i></a></li>
+<li><a href=""><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+<li><a href=""><i class="fa fa-pinterest-square fa-lg"></i></a></li>
+<li><a href=""><i class="fa fa-youtube fa-lg"></i></a></li>
+</ul>
+<h5>Powered by VM.css</h5>
+</div>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
